@@ -1,0 +1,131 @@
+body {
+    background-image: url(.//imagens/fundo\ 6.jpg);
+    background-repeat: round;
+    
+    
+}
+
+body {
+    font-family: 'cairo', sans-serif;
+
+}
+
+header,
+article,
+section {
+    width: 80%;
+    margin: auto;
+    color: aliceblue;
+}
+
+
+h1,
+h2 {
+    margin: 0;
+}
+
+article h2 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+#diferenciais h2 {
+    color: rgb(251, 255, 251);
+}
+
+section h2 {
+    margin-top: 100px;
+}
+
+header {
+
+    position: relative;
+}
+
+p,
+li {
+    font-size: 1.2em;
+}
+
+nav ul {
+    position: absolute;
+    top: 80px;
+    right: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 10px;
+
+}
+
+nav ul li a {
+    text-transform: uppercase;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    color: aliceblue;
+}
+
+nav ul li a:hover {
+    color: rgb(187, 204, 34);
+}
+
+.pizza-grande {
+    width: 100%;
+}
+
+/* inline-block exibe um elemento ao lado do outro e matém as propriedades de margens, bordas*/
+
+#diferenciais ul {
+    display: inline-block;
+    width: 35%;
+    vertical-align: top;
+}
+
+#diferenciais ul li {
+    line-height: 1.8;
+}
+
+#diferenciais img {
+    width: 50%;
+}
+
+#cardapio ul {
+    display: inline-block;
+    width: 20%;
+    vertical-align: top;
+}
+
+#cardapio ul li {
+    line-height: 1.8;
+}
+
+#cardapio img {
+    width: 25%;
+
+}
+
+#cardapio h2 {
+    color: rgb(255, 255, 255)
+}
+#localiza h2 {
+    color: rgb(255, 255, 255);
+}
+    
+
+#topo a { 
+    text-transform: uppercase;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    right: 0;
+    position: absolute;
+    right: 0;
+    margin-right: 170px;
+    color: aliceblue;
+}
+
+#topo a:hover {
+    color: red;
+}
